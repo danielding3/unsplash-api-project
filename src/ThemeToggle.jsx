@@ -8,7 +8,7 @@ const ThemeToggle = () => {
     const { isDarkTheme, toggleDarkTheme } = useGlobalContext();
     return (
         <div className='toggle-container'>
-            ThemeToggle
+            Toggle Dark/Light Mode:
             <button 
                 onClick={toggleDarkTheme}
                 className='dark-toggle'

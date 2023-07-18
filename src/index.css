@@ -380,6 +380,12 @@ Gallery
 .image-container .img {
   height: 20rem;
   object-fit: cover;
+  cursor: pointer;
+  transition:var(--transition);
+}
+
+.image-container .img:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 768px) {
